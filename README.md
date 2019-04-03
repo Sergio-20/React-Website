@@ -1,6 +1,6 @@
 # This is a website I made using React.js
 
-##Screenshots
+## Screenshots
 
 > ![react-website-discover](https://user-images.githubusercontent.com/29030325/55517701-2457f180-5626-11e9-9288-782cee01f856.png)
 
