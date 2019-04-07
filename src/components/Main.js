@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 
 class Main extends Component {
   render() {
@@ -14,6 +13,8 @@ class Main extends Component {
         <hr/>
         <img src="https://cdn.dribbble.com/users/1744669/screenshots/6280592/___4_2x.jpg"/>
         <hr/>
+        <button className="btn btn-primary">More Artwork</button>
+        <br/>
       </div>
     );
   }

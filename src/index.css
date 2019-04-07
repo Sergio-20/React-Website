@@ -7,28 +7,10 @@ body {
   padding: 0;
 }
 
-header {
-  background-color: #F4413B;
-  color: #fff;
-  font-family: 'Playball', cursive;
-  padding: 0.5rem;
-  position: relative;
-  text-align: center;
-  top: 3.8rem;
-}
-
-nav {
-  position: relative;
-  top: -4rem;
-}
-
-#footer {
-  color: #fff;
-  text-align: center;
-}
-
-#footer div {
-  padding-bottom: 2.5%;
+.content-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr 1fr 1fr);
+  grid-gap: 10rem;
 }
 
 #navbar a, #footer a {
@@ -44,22 +26,6 @@ nav {
 
 #navbar div, #footer div {
   background-color: #233;
-}
-
-#main img {
-  border: 3px solid #444;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
-  padding: 8px;
-  height: 20rem;
-  width: 25rem;
-}
-
-#main hr {
-  background-color: #219032;
-  color: #444;
-  height: 0.2rem;
 }
 
 /*****Media Queries*****/
